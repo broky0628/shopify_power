@@ -1,21 +1,18 @@
 {
-  "version": "9.6",
+  "version": "9.6.1",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.6/Power_Setup_v9.6.exe",
-  "file_name": "Power_Setup_v9.6.exe",
-  "sha256": "DBCAACCFA2E7BC128CA2E7E1A4A1C52B322F973115146E73333298DCDE0F3B7A",
+  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.6.1/Power_Setup_v9.6.1.exe",
+  "file_name": "Power_Setup_v9.6.1.exe",
+  "sha256": "23C8F6C55294B23FF6ECB2D23738C3F13250151BD2E71D84F87D432C6544A04C",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v9.6 版本更新",
-    "外观设置全面生效：所有按钮、选中标签、勾选框、表格选中色统一跟随按钮颜色配置",
-    "支持自定义运行日志背景色与字体色",
-    "左侧新增站点管理：添加站点、文件树切换站点时数据处理目录与图片保存目录自动跟随",
-    "主工作目录设置移至齿轮设置中",
-    "移除 _gui_input 目录，输入文件直接进入工作目录",
-    "不再生成 xlsx，交付文件平铺进 {brand}_data.zip 压缩包",
-    "品牌域名不再持久化保存到配置文件",
-    "条款库 v1.0.2：Contact Us 带域名/无域名版本分离，无域名版本无需输入域名"
+    "v9.6.1 版本更新",
+    "恢复 Excel 合并输出：Smart Collections / Metafields / Pages / Menu / Manual Collections 合并到 {品牌}_shopify_output.xlsx",
+    "分类数超过 99 时，Smart Collections 拆分文件放入 collection 文件夹",
+    "不再生成 ZIP 压缩包，输出目录直接保留 Excel、collection 文件夹和 product.json",
+    "Contact Us 条款带域名/无域名版本分离，无域名版本无需输入域名",
+    "条款库更新（v1.0.3）：Contact Us 表单 action 已清空"
   ],
   "restart_args": []
 }
