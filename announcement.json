@@ -1,5 +1,15 @@
 {
   "version": 2,
   "channel": "stable",
-  "announcements": []
+  "announcements": [
+    {
+      "id": "v9.6-greeting",
+      "title": "hi,好久不见",
+      "content": "hi,好久不见",
+      "level": "info",
+      "channel": "stable",
+      "show_once": true,
+      "modal": false
+    }
+  ]
 }
