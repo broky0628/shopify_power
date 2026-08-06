@@ -1,20 +1,20 @@
 {
-  "version": "9.4.6",
+  "version": "9.6",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.4.6/Power_Setup_v9.4.6.exe",
-  "file_name": "Power_Setup_v9.4.6.exe",
-  "sha256": "997665DAB3A4981B2C3DA9667A0A47CC5411D835F882273F05A9357967B098C9",
+  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.6/Power_Setup_v9.6.exe",
+  "file_name": "Power_Setup_v9.6.exe",
+  "sha256": "C2EC596EA6E6175789799E1E6509BE0B9AE1F780C058DD8D6273C2D8056402C4",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v9.4.6 版本更新",
-    "安装包切换为 onedir 目录结构，避免 _MEI 临时解压导致 python310.dll 加载失败",
-    "沿用 Python DLL 启动修复：关闭 UPX",
-    "修复数据处理时非字符串列触发 pandas .str accessor 报错的问题",
-    "CSV 读取统一按字符串处理，减少数字/空值导致的类型异常",
-    "SEO 获取方式新增 HTTP / Playwright / 浏览器优先选择",
-    "安装包补充 Playwright driver，修复浏览器模式启动时找不到文件的问题",
-    "增强 Playwright 浏览器路径自动查找和错误日志"
+    "v9.6 版本更新",
+    "外观设置全面生效：所有按钮、选中标签、勾选框、表格选中色统一跟随按钮颜色配置",
+    "支持自定义运行日志背景色与字体色",
+    "左侧新增站点管理：添加站点、文件树切换站点时数据处理目录与图片保存目录自动跟随",
+    "主工作目录设置移至齿轮设置中",
+    "移除 _gui_input 目录，输入文件直接进入工作目录",
+    "不再生成 xlsx，交付文件平铺进 {brand}_data.zip 压缩包",
+    "品牌域名不再持久化保存到配置文件"
   ],
   "restart_args": []
 }
