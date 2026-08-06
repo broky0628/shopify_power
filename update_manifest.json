@@ -3,7 +3,7 @@
   "channel": "stable",
   "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.6/Power_Setup_v9.6.exe",
   "file_name": "Power_Setup_v9.6.exe",
-  "sha256": "C2EC596EA6E6175789799E1E6509BE0B9AE1F780C058DD8D6273C2D8056402C4",
+  "sha256": "DBCAACCFA2E7BC128CA2E7E1A4A1C52B322F973115146E73333298DCDE0F3B7A",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
@@ -14,7 +14,8 @@
     "主工作目录设置移至齿轮设置中",
     "移除 _gui_input 目录，输入文件直接进入工作目录",
     "不再生成 xlsx，交付文件平铺进 {brand}_data.zip 压缩包",
-    "品牌域名不再持久化保存到配置文件"
+    "品牌域名不再持久化保存到配置文件",
+    "条款库 v1.0.2：Contact Us 带域名/无域名版本分离，无域名版本无需输入域名"
   ],
   "restart_args": []
 }
