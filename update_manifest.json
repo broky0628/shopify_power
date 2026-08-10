@@ -1,15 +1,20 @@
 {
-  "version": "9.6.2",
+  "version": "9.7",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.6.2/Power_Setup_v9.6.2.exe",
-  "file_name": "Power_Setup_v9.6.2.exe",
-  "sha256": "FFF121284BB737899D03D2E3A61C6AEB943A98C6965E0DDACCE8BD89BCF358F7",
+  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.7/Power_Setup_v9.7.exe",
+  "file_name": "Power_Setup_v9.7.exe",
+  "sha256": "741CACC3D3AB0C38EF1AC41BB7111A50F92E49FA4DD900EF4CC508592D57991B",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v9.6.2 版本更新",
-    "更新安装完成后自动删除下载的安装包（等待安装器进程退出后清理 _updates 目录）",
-    "updater 模式更新完成后同样自动删除更新包"
+    "v9.7 版本更新",
+    "菜单生成重构：支持显式目录关系（Display Title + Parent Handle 列）直接生成层级菜单",
+    "自动补齐缺失的中间目录分组，并安全继承父级 Handle",
+    "智能集合标签层级稳定识别（build_tag_hierarchy），父级选择更准确",
+    "菜单标题支持去除父级前缀、深度钳制与输出校验，避免层级错乱",
+    "新增图片区块批量下载模块（HTML 提取 + srcset 择优 + 去重 + AVIF 转换）",
+    "输入 CSV 支持拖拽导入与虚拟文件提取，工作目录文件自动规整",
+    "输出文件面板重构：站点/分组展示，支持复制与打开所在目录"
   ],
   "restart_args": []
 }
