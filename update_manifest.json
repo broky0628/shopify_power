@@ -1,20 +1,18 @@
 {
-  "version": "9.7",
+  "version": "9.9",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.7/Power_Setup_v9.7.exe",
-  "file_name": "Power_Setup_v9.7.exe",
-  "sha256": "741CACC3D3AB0C38EF1AC41BB7111A50F92E49FA4DD900EF4CC508592D57991B",
+  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.9/Power_Setup_v9.9.exe",
+  "file_name": "Power_Setup_v9.9.exe",
+  "sha256": "429F12528A842AF5A6CAA211DD21C2552DDBEA044C81336703011FEC244F2415",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v9.7 版本更新",
-    "菜单生成重构：支持显式目录关系（Display Title + Parent Handle 列）直接生成层级菜单",
-    "自动补齐缺失的中间目录分组，并安全继承父级 Handle",
-    "智能集合标签层级稳定识别（build_tag_hierarchy），父级选择更准确",
-    "菜单标题支持去除父级前缀、深度钳制与输出校验，避免层级错乱",
-    "新增图片区块批量下载模块（HTML 提取 + srcset 择优 + 去重 + AVIF 转换）",
-    "输入 CSV 支持拖拽导入与虚拟文件提取，工作目录文件自动规整",
-    "输出文件面板重构：站点/分组展示，支持复制与打开所在目录"
+    "v9.9 版本更新",
+    "产品系列生成保留上一级父级：Smart Collections 标题保留完整系列名称（含父级前缀），菜单继续显示末级名称并保持父子层级",
+    "SEO 页面新增三套可复制的 Title/Description 方案（内置，无需读取 Excel），一键复制",
+    "输出目录不再清理原有文件：仅删除已合并到 Excel 的中间文件",
+    "保留 collection.csv、产品 CSV、媒体文件、product.json 及输出目录中的原有文件",
+    "合并后的 Excel 文件保留在品牌输出目录"
   ],
   "restart_args": []
 }
