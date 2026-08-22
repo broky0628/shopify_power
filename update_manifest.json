@@ -1,18 +1,18 @@
 {
-  "version": "9.9",
+  "version": "9.91",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.9/Power_Setup_v9.9.exe",
-  "file_name": "Power_Setup_v9.9.exe",
-  "sha256": "429F12528A842AF5A6CAA211DD21C2552DDBEA044C81336703011FEC244F2415",
+  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.91/Power_Setup_v9.91.exe",
+  "file_name": "Power_Setup_v9.91.exe",
+  "sha256": "B457F2B538E089A9B2ADB5F116BF410A7F01BA402DCCC7ADC7F64ABFA5E65DC5",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v9.9 版本更新",
-    "产品系列生成保留上一级父级：Smart Collections 标题保留完整系列名称（含父级前缀），菜单继续显示末级名称并保持父子层级",
-    "SEO 页面新增三套可复制的 Title/Description 方案（内置，无需读取 Excel），一键复制",
-    "输出目录不再清理原有文件：仅删除已合并到 Excel 的中间文件",
-    "保留 collection.csv、产品 CSV、媒体文件、product.json 及输出目录中的原有文件",
-    "合并后的 Excel 文件保留在品牌输出目录"
+    "v9.91 版本更新",
+    "使用全新透明背景蓝色猫咪 Power 图标，更新程序窗口、任务栏、EXE 和安装程序图标",
+    "产品系列不超过 99 条时，集合、菜单、页面和元字段合并到品牌 Excel，并清理中间 CSV",
+    "产品系列超过 99 条时，自动创建 collection 文件夹，每个集合 CSV 最多保存 99 条",
+    "修复生成文件清单把同一品牌的子目录误识别成多个站点的问题",
+    "产品 CSV、品牌 Excel 和 product.json 集中保存在品牌输出目录"
   ],
   "restart_args": []
 }
