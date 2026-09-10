@@ -1,18 +1,18 @@
 {
-  "version": "9.91",
+  "version": "10.0",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v9.91/Power_Setup_v9.91.exe",
-  "file_name": "Power_Setup_v9.91.exe",
-  "sha256": "B457F2B538E089A9B2ADB5F116BF410A7F01BA402DCCC7ADC7F64ABFA5E65DC5",
+  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v10.0/Power_Setup_v10.0.exe",
+  "file_name": "Power_Setup_v10.0.exe",
+  "sha256": "F559BA011D2119ACD369DA70913F88DC6D4218D87F0CE1A9B40007F447394CAA",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v9.91 版本更新",
-    "使用全新透明背景蓝色猫咪 Power 图标，更新程序窗口、任务栏、EXE 和安装程序图标",
-    "产品系列不超过 99 条时，集合、菜单、页面和元字段合并到品牌 Excel，并清理中间 CSV",
-    "产品系列超过 99 条时，自动创建 collection 文件夹，每个集合 CSV 最多保存 99 条",
-    "修复生成文件清单把同一品牌的子目录误识别成多个站点的问题",
-    "产品 CSV、品牌 Excel 和 product.json 集中保存在品牌输出目录"
+    "v10.0 版本更新",
+    "所有产品 CSV 统一进行 BOM/编码检测，兼容 UTF-8、GBK/GB18030、UTF-16、Big5 等常见格式",
+    "同一品牌带有 (1)、(2) 等副本后缀的产品 CSV 自动归并到同一个品牌目录",
+    "未勾选的生成类型不再遗留散落的中间 CSV 文件",
+    "生成文件清单正常显示产品 CSV，产品 CSV、品牌 Excel 和 product.json 集中保存在品牌输出目录",
+    "产品系列超过 99 条时，自动创建 collection 文件夹，每个集合 CSV 最多保存 99 条"
   ],
   "restart_args": []
 }
