@@ -1,18 +1,16 @@
 {
-  "version": "10.0",
+  "version": "10.1.1",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/shopify_altera_tool/releases/download/v10.0/Power_Setup_v10.0.exe",
-  "file_name": "Power_Setup_v10.0.exe",
-  "sha256": "F559BA011D2119ACD369DA70913F88DC6D4218D87F0CE1A9B40007F447394CAA",
+  "download_url": "https://github.com/broky0628/shopify_power/releases/download/v10.1.1/Power_Setup_v10.1.1.exe",
+  "file_name": "Power_Setup_v10.1.1.exe",
+  "sha256": "A74FC21E9D4A1F5A84D4994DBA41B379A6539905431EC63B309CCF877954CE52",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v10.0 版本更新",
-    "所有产品 CSV 统一进行 BOM/编码检测，兼容 UTF-8、GBK/GB18030、UTF-16、Big5 等常见格式",
-    "同一品牌带有 (1)、(2) 等副本后缀的产品 CSV 自动归并到同一个品牌目录",
-    "未勾选的生成类型不再遗留散落的中间 CSV 文件",
-    "生成文件清单正常显示产品 CSV，产品 CSV、品牌 Excel 和 product.json 集中保存在品牌输出目录",
-    "产品系列超过 99 条时，自动创建 collection 文件夹，每个集合 CSV 最多保存 99 条"
+    "v10.1.1 用户版",
+    "新增产品分类菜单预览树，可通过拖拽和重命名调整 CSV 中的菜单结构",
+    "条款菜单不参与菜单树预览",
+    "用户版暂不提供 Google 产品挑选，Manual Collections 保留空白 best 分类"
   ],
   "restart_args": []
 }
