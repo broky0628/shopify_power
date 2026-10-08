@@ -6,7 +6,7 @@
   "resources": [
     {
       "path": "clause_lib.json",
-      "url": "https://raw.githubusercontent.com/broky0628/shopify_power/main/resources/clause_lib.json",
+      "url": "https://raw.githubusercontent.com/broky0628/shopify_power/5ffd16fe619e6083fc9ff60373bdc7b3588d3009/resources/clause_lib.json",
       "sha256": "061de9b2dcf694089a94682fb7fe6629b82bfa3747a32e53706078664f8b7ca8"
     },
     {
