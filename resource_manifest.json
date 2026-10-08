@@ -1,15 +1,13 @@
 {
-  "version": "2026.07.08",
+  "version": "2026.10.08",
   "notes": [
-    "Update clause library",
-    "Update SEO category keywords",
-    "Update GUI theme resources"
+    "Unify shipping delivery timeframe to 5-8 business days"
   ],
   "resources": [
     {
       "path": "clause_lib.json",
-      "url": "https://raw.githubusercontent.com/broky0628/shopify_altera_tool/main/resources/clause_lib.json",
-      "sha256": "1ed04089916daf9d9a66cf00d27396df028d6d28658437fbc66faa3bf1307726"
+      "url": "https://raw.githubusercontent.com/broky0628/shopify_power/main/resources/clause_lib.json",
+      "sha256": "724e756d1405240caae1126af73da223b1531b21e1f3acf6e5fb32bd77e75464"
     },
     {
       "path": "seo_category_keywords.json",
